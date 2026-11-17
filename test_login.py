@@ -1,6 +1,8 @@
 from login_page import Login
 import pytest
 import allure
+from selenium.webdriver.common.by import By
+
 
 class TestLogin:
     @allure.feature("Login")
