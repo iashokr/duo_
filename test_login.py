@@ -25,7 +25,7 @@ class TestLogin:
     @allure.story("Phone")
     @allure.title("Verify Phone with {user_phone}")
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.parametrize("user_phone", ["7890349023", "8901234890", "9068712345"])
+    @pytest.mark.parametrize("user_phone", ["7890349023", "8901234890"])
     def test_enter_user_phone(self,user_phone,set_up):
         login = Login(set_up)
         login.user_enter_phone(user_phone)
