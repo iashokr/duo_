@@ -8,4 +8,3 @@ def set_up():
     driver.get("https://testautomationpractice.blogspot.com/")
     yield driver
     driver.quit()
-x
